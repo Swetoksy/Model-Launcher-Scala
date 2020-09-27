@@ -2,7 +2,7 @@ plugins {
     id 'scala'
 }
 
-group 'fr.aerium'
+group 'fr.launcher'
 version '1.0'
 
 repositories {
