@@ -1,0 +1,16 @@
+plugins {
+    id 'scala'
+}
+
+group 'fr.aerium'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.scala-lang:scala-library:2.13.3"
+    compile group: 'org.scalafx', name: 'scalafx_2.13', version: '14-R19'
+    compile group: 'io.github.iltotore', name: 'ec-client_2.13', version: '2.0'
+}
